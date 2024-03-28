@@ -1,0 +1,10 @@
+.me-section-container{
+    background:black;
+    height:100vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding:1px;
+}
+
+h1{
+    color:white;
+}

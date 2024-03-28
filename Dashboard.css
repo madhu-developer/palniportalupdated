@@ -1,0 +1,156 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.dashboard-container{
+    margin:0px;
+    box-sizing: content-box;
+    overflow-x: hidden;
+    height:100vh;
+    width:100vw;
+}
+
+.header-section{
+    height:10vh;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items:center;
+    padding:5px;
+    background:black;
+    color:white;
+    position:relative;
+}
+.company-logo{
+    height:50px;
+    width:80px;
+}
+
+.employee-section{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:40px;
+}
+.employee-image{
+    background: white;
+    border-radius:50px;;
+}
+.sidenav-section{
+    height:90vh;
+    width:90px;
+    margin: top 20px;
+    padding-top:40px;
+    padding-bottom:40px;
+    background:black;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    color:white;
+}
+
+.icon{
+    height:30px;
+    width:30px;
+    gap:8px;
+}
+
+a{
+    color:black;
+    font-size:15px;
+    text-decoration:none;
+    font-weight:600;
+}
+.icon-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:18px;
+}
+.main-body-container{
+    display:flex;
+    flex-direction:row;
+}
+.content{
+    display:flex;
+    gap:0px 500px;
+}
+.left-side-body{
+    display:flex;
+    flex-direction:column;
+    
+}
+.time-and-date-section{
+    background:black;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding-left:8px;
+    padding-right:80px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:10px;
+}
+
+.date-and-day{
+    display:flex;
+    gap:0px 20px;
+}
+.right-side-body{
+    display:flex;
+    flex-direction:column;
+}
+.holidays-section{
+    display:flex;
+    flex-direction:column; 
+    background:black;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding-left:8px;
+    padding-right:80px;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin:10px;
+    color:white;
+}
+.holiday-and-view{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.official-links-section{
+    margin:10px;
+    background:black;
+    color:white;
+    border:none;
+    border-radius:8px;
+    padding-left:8px;
+    padding-right:80px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+a{
+    color:white;
+}
+
+.links{
+    display:flex;
+    flex-direction:column; 
+    gap:10px;
+}
+
+option {
+    display: inline-block;
+    background:transparent;
+    color:white;
+  }
+  
+select{
+    background:transparent;
+    color:white;
+    border:none;
+}
